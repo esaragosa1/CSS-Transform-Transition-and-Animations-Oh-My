@@ -2,14 +2,17 @@
 
 body  {
   font-family: 'Josefin Sans', sans-serif;
+  font-size: x-large;
 }
 main {
   background-color: mediumaquamarine;
-  height: 90vh;
-  width: 100vh;
+  height: 180vh;
+  width: 200vh;
   margin: auto;
   display: flex;
   align-items: center;
+  transform: skew(0deg, -20deg);
+  padding: auto;
 }
 
 main > div {
